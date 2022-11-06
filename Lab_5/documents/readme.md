@@ -12,6 +12,7 @@ Następnie podzieliłam dane:
 3) Trzecia kolumna - miesiąc - "month"
 4) Czwarta kolumna - rodzaj pomiaru - "element"
 5) Kolejne kolumny - pomiary z poszczególnych dni miesiąca - "day1",...,"day31"
+
 W kolejnym kroku moim celem było usunięcie błędnych pomiarów, dlatego niepoprawne dane zastąpiłam wartością "inf".
 Następnie wyodrębniłam te wartości, które nie zawierały "inf".
 Po czym połączyłam kolumny zawierające informacje o roku, miesiącu i dniu w jedną kolumną zawierającą datę.
